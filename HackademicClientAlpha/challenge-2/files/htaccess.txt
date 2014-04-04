@@ -1,0 +1,7 @@
+#Don't forget to rename this to .htaccess!
+
+IndexIgnore agentReport2.html .htaccess
+<Files .htaccess>
+order allow,deny
+allow from all
+</Files>

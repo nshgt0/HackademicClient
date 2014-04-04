@@ -1,0 +1,64 @@
+#container{
+	width: 960px;
+	margin: 20px auto;	
+}
+
+body{
+	background-image:url('../images/woodBG.jpg');	
+}
+
+header{
+	text-align: center;	
+	margin: 0 auto;
+	width:260px;	
+	border-radius: 20px/60px;
+	border: 3px solid #BA7B00;
+	background-color:rgba(235,208,136,0.7);
+}
+
+nav{
+	margin: 0 auto;	
+	text-align: center;		
+	box-shadow: 4px 0 2px -2px rgba(0,0,0,0.4);
+	padding-top: 2px;
+	padding-bottom: 2px;		
+}
+
+article img{
+	float:right;	
+	margin:6px 6px 0px 2px;
+	border: 3px solid #BA7B00;
+    border-radius: 2px;
+}
+
+article{
+	float: left;
+	background-color:rgba(235,208,136,0.9);
+	border-radius: 6px;
+}
+
+
+li{
+	display:inline;
+}
+
+a{
+	text-decoration: none;  
+	color: black;
+    display: inline-block;
+    padding: 8px;
+    border: 3px solid #FCB326;
+    border-radius: 6px;
+    background: rgb(255,225,140);
+    box-shadow: 
+        0 2px 1px rgba(0, 0, 0, 0.2), 
+        inset 0 2px 1px rgba(0, 0, 0, 0.2);   
+}
+
+a:hover{
+	border-color: #FDD68B;
+}
+
+a:active{
+	border-color: #FEE8BD;
+}

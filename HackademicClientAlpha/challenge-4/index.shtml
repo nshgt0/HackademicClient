@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" >
+		<title>Gaming News</title>
+		<meta name="description" content="Video game news, reviews, previews and trailers.">
+		<link rel="stylesheet"  href="css/c4Style.css">
+	</head>	
+	<body>		
+		<div id="container">
+			<header>
+				<h1>2D Gaming Portal</h1>
+				<p><!--#include file="greetings.txt" --></p>					
+			</header>					
+			<aside class="asideCol">
+				<nav>
+					<ul>
+						<h3>Menu</h3>
+						<li><a href="#">Home</a></li>
+						<li><a href="#">News</a></li>
+						<li><a href="#">Reviews</a></li>				
+						<li><a href="#">Contact</a></li>
+					</ul>
+				</nav>		
+			</aside>		
+			<section id="mainContent">
+				<h2>New Articles</h2>
+				<article>
+					<img src="images/mario.jpg" alt="Mario" width="100" height="80">
+					<h3><a href="#">Super Mario World</a></h3>
+					<p>The game centers on the quest of Mario and Luigi to save Dinosaur Land from Bowser, the series' antagonist.
+					The two brothers must travel across seven worlds to restore order to Dinosaur Land.
+					It built on the gameplay of previous Mario games by introducing new power-ups that augment character abilities, and established conventions that were carried over to future games in the series.
+					Super Mario World marks the first appearance of Yoshi, Mario's dinosaur sidekick and riding mount. </p> 					
+				</article>
+				<article>
+					<img src="images/zelda.jpg" alt="Zelda" width="100" height="80">
+					<h3><a href="#">Zelda:A link to the past</a></h3>
+					<p>The plot of A Link to the Past focuses on Link as he travels on a journey to save Hyrule, defeat Ganon and rescue the seven descendants of the Sages.
+					 A Link to the Past uses a 3/4 top-down perspective similar to that of the original The Legend of Zelda, dropping the side scrolling elements of Zelda II: The Adventure of Link.
+					 A Link to the Past introduced elements to the series that are still commonplace today, such as the concept of an alternate or parallel world, the Master Sword and other new weapons and items. </p> 					
+				</article>							
+			</section>		
+			<aside class="asideCol">
+				<h3>More Games</h3>
+				<article>
+					<p style="float:left; border: "><a href="#">F-zero</a></p>
+					<p style="float:right;margin-right:4px;"><a href="#">Chrono Trigger</a></p>
+					<img src="images/fzero.jpg" alt="FZero" width="60" height="50" style="margin-left:10px;border: 1px solid;">								
+					<img src="images/chrono.jpg" alt="Chrono" width="60" height="50" style="margin-left:70px;border: 1px solid;">					
+					<br>
+					<br>
+					<p style="float:left;"><a href="#">Street Fighter</a></p>
+					<p style="float:right;margin-right:36px;"><a href="#">Metroid</a></p>
+					<img src="images/streetfighter.jpg" alt="S.F.2" width="60" height="50" style="margin-left:10px;border: 1px solid;">								
+					<img src="images/metroid.jpg" alt="Metroid" width="60" height="50" style="margin-left:70px;margin-bottom: 10px;border: 1px solid;">						
+				</article>		
+			</aside>	
+			<aside class="asideCol">
+				<h3>Subscribe</h3>
+				<form name="Subscribe" action="subscribe.php" method="post">
+					<label for="email">Your e-mail:</label> 
+					<input type="text" name="email">
+					<input type="submit" value="Subscribe">
+				</form>		
+			</aside>				
+			<footer>
+				<p>2D Gaming Portal</p>				
+			</footer>	
+			</div>		
+	</body>	
+</html>

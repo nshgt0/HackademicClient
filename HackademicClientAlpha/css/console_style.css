@@ -1,0 +1,17 @@
+#console{
+	background-color: black;
+	color: white;
+	font-family:monospace;
+	font-size: large;
+	
+}
+
+.consoleInput{
+	background-color: black;
+	color: white;	
+	font-family:monospace;
+	border: 0;
+	outline: none;
+	font-size: large;
+
+}

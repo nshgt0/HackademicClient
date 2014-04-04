@@ -1,0 +1,3 @@
+AddType text/html .shtml
+AddOutputFilter INCLUDES .shtml .php
+DirectoryIndex index.shtml
